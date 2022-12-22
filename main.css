@@ -77,3 +77,6 @@
   .row .circle.exist {
     background-color: yellow;
   }
+  .btn{ 
+    padding: 2px;
+  }

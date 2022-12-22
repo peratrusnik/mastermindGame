@@ -16,6 +16,13 @@ let tryRow = [];
 let checkRow = [];
 let currentResult = [];
 let tryNumber = 0;
+let btn = document.querySelector('.btn');
+
+btn.addEventListener('click', reset);
+
+function reset() {
+    location.reload();
+}
 
 startGame();
 
